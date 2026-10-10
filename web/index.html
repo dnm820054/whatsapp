@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="MIRO Hardware — یراق‌آلات پریمیوم درب و کابینت" />
+  <title>MIRO Hardware | یراق‌آلات پریمیوم</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <div class="header-logo">
+        <svg class="logo-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M24 4 L42 14 V34 L24 44 L6 34 V14 Z" stroke="#d4af37" stroke-width="1.5" fill="none"/>
+          <path d="M16 18 L24 30 L32 18" stroke="#d4af37" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+          <circle cx="24" cy="24" r="2.5" fill="#d4af37"/>
+        </svg>
+        <span class="logo-text">MIRO <span class="gold">HARDWARE</span></span>
+      </div>
+      <nav class="main-nav" id="mainNav">
+        <a href="#hero">صفحه اصلی</a>
+        <a href="#collections">محصولات</a>
+        <a href="#brands">برندها</a>
+        <a href="#process">پروژه‌ها</a>
+        <a href="#why-miro">چرا میرو</a>
+        <a href="#contact">تماس با ما</a>
+        <a href="#philosophy">مقالات</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="منو" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO SLIDER ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-slides" id="heroSlides">
+      <div class="hero-slide active">
+        <div class="hero-content">
+          <div class="hero-text">
+            <p class="hero-eyebrow">MIRO HARDWARE</p>
+            <h1 class="hero-title">جزئیات، با یک<br/>انتخاب آغاز می‌شود</h1>
+            <p class="hero-subtitle">کیفیت یک فضا، از انتخاب‌هایی آغاز می‌شود که در کوچک‌ترین جزئیات معنا پیدا می‌کنند.</p>
+            <a href="#collections" class="btn-gold">مشاهده مجموعه‌ها</a>
+          </div>
+          <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?w=800&q=80" alt="طلک دستگیره طلایی" loading="eager" />
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide">
+        <div class="hero-content">
+          <div class="hero-text">
+            <p class="hero-eyebrow">MIRO HARDWARE</p>
+            <h1 class="hero-title">هر فضا، داستانی<br/>از دقت و زیبایی</h1>
+            <p class="hero-subtitle">یراق‌آلاتی که با طراحی بی‌نظیر خود، به هر درب و کابینت شخصیتی ماندگار می‌بخشند.</p>
+            <a href="#collections" class="btn-gold">مشاهده مجموعه‌ها</a>
+          </div>
+          <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=800&q=80" alt="یراق پریمیوم" loading="lazy" />
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide">
+        <div class="hero-content">
+          <div class="hero-text">
+            <p class="hero-eyebrow">MIRO HARDWARE</p>
+            <h1 class="hero-title">طراحی، پیش از<br/>انتخاب آغاز می‌شود</h1>
+            <p class="hero-subtitle">ما باور داریم هر انتخاب، آینه‌ای از سلیقه و هویس شماست — جزئیات، تفاوت را می‌سازند.</p>
+            <a href="#contact" class="btn-gold">مشاوره رایگان</a>
+          </div>
+          <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?w=800&q=80" alt="دستگیره مدرن" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="hero-arrow hero-prev" id="heroPrev" aria-label="قبلی">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 6l6 6-6 6"/></svg>
+    </button>
+    <button class="hero-arrow hero-next" id="heroNext" aria-label="بعدی">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 6l-6 6 6 6"/></svg>
+    </button>
+    <div class="hero-dots" id="heroDots"></div>
+  </section>
+
+  <!-- ===== PARTNER BRANDS ===== -->
+  <section class="brands" id="brands">
+    <div class="container">
+      <p class="section-eyebrow">برندهای همکار</p>
+      <div class="brands-row">
+        <div class="brand-item">YALE</div>
+        <div class="brand-item">ASSA ABLOY</div>
+        <div class="brand-item">CISA</div>
+        <div class="brand-item">UNION</div>
+        <div class="brand-item">AGB</div>
+        <div class="brand-item">KALE</div>
+        <div class="brand-item">DORMA</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COLLECTIONS ===== -->
+  <section class="collections" id="collections">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-eyebrow">دسته‌بندی محصولات</p>
+        <h2 class="section-title">مجموعه‌ها</h2>
+        <p class="section-subtitle">هر مجموعه، داستانی از دقت و زیبایی—برای فضاهایی که جزئیات، تفاوت می‌سازد.</p>
+      </div>
+      <div class="collections-grid">
+        <article class="collection-card">
+          <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=600&q=80" alt="اکسس کنترل" loading="lazy" />
+          <div class="collection-overlay">
+            <h3 class="collection-en">ACCESS CONTROL</h3>
+            <p class="collection-fa">اکسس کنترل، یراق‌آلات هوشمند و برقی</p>
+            <a href="#" class="collection-link">مشاهده محصولات ←</a>
+          </div>
+        </article>
+        <article class="collection-card">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" alt="یراق درب" loading="lazy" />
+          <div class="collection-overlay">
+            <h3 class="collection-en">DOOR HARDWARE</h3>
+            <p class="collection-fa">یراق درب</p>
+            <a href="#" class="collection-link">مشاهده محصولات ←</a>
+          </div>
+        </article>
+        <article class="collection-card">
+          <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80" alt="محصولات کابینت" loading="lazy" />
+          <div class="collection-overlay">
+            <h3 class="collection-en">CABINET HARDWARE</h3>
+            <p class="collection-fa">محصولات کابینت</p>
+            <a href="#" class="collection-link">مشاهده محصولات ←</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section class="process" id="process">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-eyebrow">از ایده تا اجرا</p>
+        <h2 class="section-title">فرآیند طراحی</h2>
+      </div>
+      <div class="process-grid">
+        <div class="process-card-large">
+          <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800&q=80" alt="طراحی" loading="lazy" />
+          <div class="process-card-body">
+            <h3>طراحی، پیش از انتخاب آغاز می‌شود</h3>
+            <p>هر پروژه با درک عمیق از نیاز و چشم‌انداز شما آغاز می‌شود. ما جزئیات را پیش از انتخاب شکل می‌دهیم.</p>
+          </div>
+        </div>
+        <div class="process-card-large">
+          <img src="https://images.unsplash.com/photo-1556909114-44e3e70034e2?w=800&q=80" alt="اجرا" loading="lazy" />
+          <div class="process-card-body">
+            <h3>اجرا، با دقت در جزئیات</h3>
+            <p>از انتخاب متریال تا نصب نهایی، هر گام با وسواس و تلاش برای کمال اجرا می‌شود.</p>
+          </div>
+        </div>
+        <div class="process-card-small">
+          <span class="process-num">۰۱</span>
+          <h4>مشاوره و انتخاب</h4>
+          <p>تیم متخصص ما در کنار شماست تا بهترین انتخاب را برای فضای شما پیدا کنید.</p>
+        </div>
+        <div class="process-card-small">
+          <span class="process-num">۰۲</span>
+          <h4>طراحی اختصاصی</h4>
+          <p>هر پروژه، طراحی منحصربه‌فردی دریافت می‌کند که با سبک و نیاز شما هماهنگ است.</p>
+        </div>
+        <div class="process-card-small">
+          <span class="process-num">۰۳</span>
+          <h4>تأمین متریال</h4>
+          <p>برندهای معتبر جهانی، در دسترس شما — کیفیت تضمین‌شده در هر جزء.</p>
+        </div>
+        <div class="process-card-small">
+          <span class="process-num">۰۴</span>
+          <h4>نصب و تحویل</h4>
+          <p>نصب حرفه‌ای توسط تیم مجرب، با تضمین کیفیت و پشتیبانی پس از فروش.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY MIRO ===== -->
+  <section class="why-miro" id="why-miro">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-eyebrow">چرا میرو</p>
+        <h2 class="section-title">چرا MIRO را انتخاب کنید</h2>
+      </div>
+      <div class="why-grid">
+        <article class="why-card">
+          <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=600&q=80" alt="کیفیت" loading="lazy" />
+          <div class="why-body">
+            <h3>کیفیت بی‌گذشت</h3>
+            <p>ما تنها با برندهایی همکاری می‌کنیم که استانداردهای سختگیرانه کیفیت را رعایت می‌کنند. هر محصول، آزمون‌شده است.</p>
+          </div>
+        </article>
+        <article class="why-card">
+          <img src="https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=600&q=80" alt="طراحی" loading="lazy" />
+          <div class="why-body">
+            <h3>طراحی ماندگار</h3>
+            <p>طراحی‌هایی که فراتر از ترند روز هستند — زیبایی که با گذر زمان، ارزش بیشتری پیدا می‌کند.</p>
+          </div>
+        </article>
+        <article class="why-card">
+          <img src="https://images.unsplash.com/photo-1631889993959-41b4e9c6e3c5?w=600&q=80" alt="پشتیبانی" loading="lazy" />
+          <div class="why-body">
+            <h3>پشتیبانی کامل</h3>
+            <p>از مشاوره اولیه تا خدمات پس از فروش، ما در هر گام در کنار شما هستیم — تعهد ما، رضایت شماست.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PHILOSOPHY ===== -->
+  <section class="philosophy" id="philosophy">
+    <div class="container philosophy-inner">
+      <div class="philosophy-text">
+        <p class="section-eyebrow">Philosophy of Miro</p>
+        <h2 class="philosophy-en">Every Space Begins<br/>with a Decision</h2>
+        <p class="philosophy-fa">هر فضای ماندگار با یک تصمیم آغاز می‌شود</p>
+        <p class="philosophy-desc">ما باور داریم که فضاهای ماندگار، حاصل انتخاب‌های دقیق و آگاهانه‌اند. هر دستگیره، هر لولا، هر قفل — جزئی از داستانی است که شما می‌سازید. مأموریت ما، ارائه یراق‌آلاتی است که این داستان را به بهترین شکل روایت کنند.</p>
+      </div>
+      <div class="philosophy-image">
+        <img src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=800&q=80" alt="میز نمایش محصولات" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-info">
+        <p class="section-eyebrow">تماس با ما</p>
+        <h2 class="section-title">با ما در ارتباط باشید</h2>
+        <p class="contact-quote">"Dreams are built through details."</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#d4af37" stroke-width="1.5"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            <div>
+              <span class="contact-label">آدرس</span>
+              <p>تهران، خیابان ولیعصر، برج میرو، طبقه ۸</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#d4af37" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <div>
+              <span class="contact-label">تلفن</span>
+              <p dir="ltr">+98 21 1234 5678</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#d4af37" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            <div>
+              <span class="contact-label">اینستاگرام</span>
+              <p>@miro_hardware</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#d4af37" stroke-width="1.5"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+            <div>
+              <span class="contact-label">واتساپ</span>
+              <p dir="ltr">+98 912 345 6789</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="نام و نام خانوادگی" required />
+            <input type="tel" name="phone" placeholder="شماره تماس" required />
+          </div>
+          <textarea name="message" rows="3" placeholder="پیام شما"></textarea>
+          <button type="submit" class="btn-gold">ارسال درخواست</button>
+          <p class="form-msg" id="formMsg"></p>
+        </form>
+      </div>
+      <div class="contact-image">
+        <img src="https://images.unsplash.com/photo-1503602642458-232111445657?w=800&q=80" alt="میز کار با لوگوی میرو" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col footer-brand">
+        <div class="header-logo">
+          <svg class="logo-icon" viewBox="0 0 48 48" fill="none"><path d="M24 4 L42 14 V34 L24 44 L6 34 V14 Z" stroke="#d4af37" stroke-width="1.5" fill="none"/><path d="M16 18 L24 30 L32 18" stroke="#d4af37" stroke-width="1.5" fill="none" stroke-linecap="round"/><circle cx="24" cy="24" r="2.5" fill="#d4af37"/></svg>
+          <span class="logo-text">MIRO <span class="gold">HARDWARE</span></span>
+        </div>
+        <p class="footer-desc">یراق‌آلات پریمیوم برای فضاهایی که جزئیات، تفاوت می‌سازد.</p>
+      </div>
+      <div class="footer-col">
+        <h4>مجموعه‌ها</h4>
+        <a href="#collections">اکسس کنترل</a>
+        <a href="#collections">یراق درب</a>
+        <a href="#collections">محصولات کابینت</a>
+      </div>
+      <div class="footer-col">
+        <h4>شرکت</h4>
+        <a href="#why-miro">چرا میرو</a>
+        <a href="#process">فرآیند طراحی</a>
+        <a href="#philosophy">فلسفه برند</a>
+      </div>
+      <div class="footer-col">
+        <h4>ارتباط</h4>
+        <a href="#contact">تماس با ما</a>
+        <p class="footer-addr">تهران، خیابان ولیعصر</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="#d4af37" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="#d4af37" stroke-width="1.5"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>۲۰۲۶ میرو برند — تمامی حقوق محفوظ است.</p>
+    </div>
+  </footer>
+
+  <!-- ===== SCROLL TO TOP ===== -->
+  <button class="scroll-top" id="scrollTop" aria-label="بالا">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
